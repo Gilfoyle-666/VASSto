@@ -806,22 +806,22 @@
 			height: 26px;
 
 			} 
-
-			.mobile_men_wrap {
-				position: sticky;  
-			  	top: 0;
+		#mobile_men_wrap {
+				display: none;
+				position: absolute;  
+			  	top: 0px;
 			  	right: 0;
 			  	bottom: 0;
 				left: 0;
 				background: rgba(51,51,51,1);
+
 				z-index: 100;
 			}
 
-			#mobile_menu {
+			#mobile_menu {position: relative;
 				text-align: center;
-			 	/*position:  sticky;*/
-			  	display: none;
-			  	top: 0;
+			 	/*position:  sticky;*/	
+			  	top: 50px;
 			  	right: 0;
 			  	bottom: 0;
 			  	left: 0;
@@ -834,6 +834,7 @@
 				color: #FFFFFF;
 
 			 }
+
 
 
 			#mobile_menu  div {
